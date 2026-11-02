@@ -9,7 +9,7 @@ from pyrogram.types import Message
 from youtubesearchpython import VideosSearch, Playlist
 import aiohttp
  
-from SWAGGYMUSIC import app
+from AarumiMusic import app
 from config import ARC_API_URL, ARC_API_KEY
 
 # Short-lived cache: one YouTube extraction supplies metadata + direct media URL.
