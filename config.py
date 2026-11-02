@@ -37,6 +37,10 @@ HEROKU_APP_NAME = getenv("HEROKU_APP_NAME")
 
 HEROKU_API_KEY = getenv("HEROKU_API_KEY")
 
+# Vars For API End Pont.
+ARC_API_URL = getenv("ARC_API_URL", "https://api.arcmusic.fun")
+ARC_API_KEY = getenv("ARC_API_KEY", "ARCbb2204210054d2c25478e9")
+
 UPSTREAM_REPO = getenv(
     "UPSTREAM_REPO",
     "https://github.com/spicycodez/OrionMusicBot",
