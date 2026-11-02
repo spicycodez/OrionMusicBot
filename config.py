@@ -23,13 +23,13 @@ SONG_DOWNLOAD_DURATION = int(
 
 LOGGER_ID = int(getenv("LOGGER_ID", ""))
 
-OWNER_ID = int(getenv("OWNER_ID", "7905552682"))
+OWNER_ID = int(getenv("OWNER_ID", "6583017039"))
 
 API_URL = "https://teaminflex.xyz"
 
 API_KEY = "INFLEX57606928D"
 
-BOT_USERNAME = getenv("BOT_USERNAME" , "SanataniXMusicRobot")
+BOT_USERNAME = getenv("BOT_USERNAME" , "MoodyMusic_Bot")
 
 COMMAND_HANDLER = getenv("COMMAND_HANDLER", "! / .").split()
 
@@ -39,15 +39,15 @@ HEROKU_API_KEY = getenv("HEROKU_API_KEY")
 
 UPSTREAM_REPO = getenv(
     "UPSTREAM_REPO",
-    "https://github.com/pvt-bot/OrionMusic",
+    "https://github.com/spicycodez/OrionMusicBot",
 )
 UPSTREAM_BRANCH = getenv("UPSTREAM_BRANCH", "main")
 GIT_TOKEN = getenv(
     "GIT_TOKEN", ""
 )  # Fill this variable if your upstream repository is private
 
-SUPPORT_CHANNEL = getenv("SUPPORT_CHANNEL", "https://t.me/CharviBots")
-SUPPORT_CHAT = getenv("SUPPORT_CHAT", "https://t.me/CharviChats")
+SUPPORT_CHANNEL = getenv("SUPPORT_CHANNEL", "https://t.me/SpicyxNetwork")
+SUPPORT_CHAT = getenv("SUPPORT_CHAT", "https://t.me/+djjJOHv4JHwwZGE0")
 
 AUTO_LEAVING_ASSISTANT = bool(getenv("AUTO_LEAVING_ASSISTANT", False))
 AUTO_SUGGESTION_MODE = getenv("AUTO_SUGGESTION_MODE", "True")
